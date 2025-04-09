@@ -275,9 +275,9 @@ body {
 
 /* tool section */
 .tool-card {
-  width: 30%;
+  width: 100%;
   height: 150px;
-  border-radius: 50px;
+  border-radius: 10px;
   background: #e0e0e044;
   display: flex;
   flex-direction: column;
@@ -287,59 +287,13 @@ body {
 }
 
 /* project section */
-.Projects-card {
-  width: 300px;
-  height: 200px;
-  perspective: 1000px;
+.card {
+ box-shadow: #000 0px 0px 20px 0px;
+
 }
 
-.Projects-card-inner {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  transform-style: preserve-3d;
-  transition: transform 0.999s;
-}
 
-.Projects-card:hover .Projects-card-inner {
-  transform: rotateY(180deg);
-}
-
-.Projects-card-front,
-.Projects-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-}
-
-.Projects-card-front {
-  background-color: #6a2c7000;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  /* border: 10px solid #020102; */
-  border-radius: 10px;
-  justify-content: center;
-  font-size: 24px;
-  transform: rotateY(0deg);
-}
-.Projects-card-front img {
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-  object-fit: cover;
-}
-.Projects-card-back {
-  background-color: #02bff865;
-  color: #fff;
-  text-align: center;
-  /* border: 10px solid #f0895d36; */
-  border-radius: 10px;
-  font-size: 24px;
-  transform: rotateY(180deg);
-}
-.Projects-card-back .btns{
+.btns{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
