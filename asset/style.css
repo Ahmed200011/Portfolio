@@ -18,70 +18,7 @@ body {
   font-family: cursive;
 }
 
-/* .stack {
-  width: 55%;
-  max-width: 400px;
-  transition: 0.25s ease;
-  &:hover {
-    transform: rotate(5deg);
-    .card:before {
-      transform: translatey(-2%) rotate(-4deg);
-    }
-    .card:after {
-      transform: translatey(2%) rotate(4deg);
-    }
-  }
-}
 
-.card {
-  aspect-ratio: 3 / 2;
-  border: 4px solid;
-  background-color: #fff;
-  position: relative;
-  transition: 0.15s ease;
-  cursor: pointer;
-  padding: 5% 5% 15% 5%;
-  &:before,
-  &:after {
-    content: "";
-    display: block;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    border: 4px solid;
-    background-color: #fff;
-    transform-origin: center center;
-    z-index: -1;
-    transition: 0.15s ease;
-    top: 0;
-    left: 0;
-  }
-
-  &:before {
-    transform: translatey(-2%) rotate(-6deg);
-  }
-
-  &:after {
-    transform: translatey(2%) rotate(6deg);
-  }
-}
-.image {
-  width: 100%;
-  border: 4px solid;
-  background-color: #eee;
-  aspect-ratio: 1 / 1;
-  position: relative;
-}
-
-.browser-warning {
-  margin-bottom: 4rem;
-} */
-
-/* @supports (aspect-ratio: 1 / 1) {
-  .browser-warning {
-    display: none;
-  }
-} */
 
 /* home section*/
 .profile-image {
@@ -177,6 +114,8 @@ body {
   overflow: hidden;
   background: #02bff8;
   color: ghostwhite;
+  width: 200px;
+  text-align: center;
 }
 
 .cv span {
@@ -278,13 +217,14 @@ body {
   width: 100%;
   height: 150px;
   border-radius: 10px;
-  background: #e0e0e044;
+  background: #ffffff80;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: #000;
   margin-bottom: 40px;
   box-shadow: #000 0px 0px 20px 0px;
+  color: white;
 }
 
 /* project section */
